@@ -40,7 +40,7 @@ echo route delete default; route add default <public ip x.x.x.1>
 echo echo "nameserver x.x.x.x" > /etc/resolv.conf
 echo Once network is configured, you can launch the usual installer:
 echo bsdinstall
-echo !!!!!! this is a test. !!!!!!! 
+echo !!!!!! this is just a test. !!!!!!! 
 echo ${src}
 initrd ${src}
 chain ${memdisk} harddisk raw
